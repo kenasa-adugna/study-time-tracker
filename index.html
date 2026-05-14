@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Time Tracker Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📚 Study Tracker Pro</h1>
+
+    <!-- TIMER -->
+    <div class="timer-box">
+        <h2 id="timer">00:00:00</h2>
+
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
+    <!-- GOAL -->
+    <div class="goal-box">
+        <h3>Daily Goal</h3>
+
+        <input type="number" id="goalInput" placeholder="Enter hours goal">
+        <button id="setGoal">Set Goal</button>
+
+        <p id="goalText">Goal: 0 Hours</p>
+
+        <!-- PROGRESS BAR -->
+        <div class="progress-container">
+            <div id="progressBar"></div>
+        </div>
+
+        <p id="progressText">Progress: 0%</p>
+    </div>
+
+    <!-- STATS -->
+    <div class="stats-box">
+        <p>Total Study Time: <span id="totalTime">0</span> min</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
