@@ -1,6 +1,7 @@
 
 📚 Study Time Tracker
-🔗 Live Demo: https://kenasa-adugna.github.io/study-time-tracker/⁠
+🔗 Live Demo: https://kenasa-adugna.github.io/study-time-tracker/
+/⁠
 🚀 Overview
 Study Time Tracker is a simple and interactive web application built using HTML, CSS, and JavaScript that helps students track their study time, set daily goals, and visualize productivity.
 This project was built to help students improve consistency and build better study habits through a clean and easy-to-use interface.
